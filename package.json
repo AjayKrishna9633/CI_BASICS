@@ -1,0 +1,13 @@
+{
+  "name": "my-ci-demo-app",
+  "version": "1.0.0",
+  "description": "Demonstrating CI pipeline in action",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/app.test.js",
+    "build": "node -e \"console.log('📦 [BUILD]: Compiling and packaging app... Build succeeded!')\""
+  },
+  "keywords": ["ci", "github-actions", "demo"],
+  "author": "",
+  "license": "ISC"
+}
